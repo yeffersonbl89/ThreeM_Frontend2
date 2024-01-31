@@ -1,0 +1,49 @@
+div {
+    max-width: 30rem;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 0.375rem;    
+    background-color: #2c3e50;    
+  } 
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Logo {
+    text-align: center; /* Centra el contenido dentro de la clase Logo */
+  }
+  
+  .Logo img {
+    max-width: 150px; /* Ajusta el tamaño máximo de la imagen */
+    height: auto; /* Mantiene la proporción original de la imagen */
+    display: block; /* Asegura que la imagen sea un bloque para aplicar márgenes automáticamente */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+  }
+  
+  input {
+    margin-bottom: 10px;
+    padding: 2px 4px;;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+  }
+  
+  button {
+    padding: 6px 12px;
+    background-color: #6515dd;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
