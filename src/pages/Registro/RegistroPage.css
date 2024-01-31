@@ -21,17 +21,44 @@ div {
     display: block; /* Asegura que la imagen sea un bloque para aplicar márgenes automáticamente */
     margin: 0 auto; /* Centra la imagen horizontalmente */
   }
+
+  label {
+    font-size: 18px;
+  } 
   
   input {
     margin-bottom: 10px;
-    padding: 2px 4px;;
-    font-size: 14px;
+    padding: 4px 4px;;
+    font-size: 18px;
     border: 1px solid #ccc;
     border-radius: 4px;
     width: 100%;
+    box-sizing: border-box;
+  }
+
+  .password-input-container {
+    position: relative;
   }
   
-  button {
+  .password-input-container input {
+    padding-right: 30px; /* Ajusta el espacio a la derecha del input para acomodar el ícono */
+  }
+  
+  .eye-icon {
+    position: absolute;
+    top: 50%;
+    right: 20px; /* Ajusta la distancia desde la derecha del contenedor */
+    transform: translateY(-72%);
+    cursor: pointer;
+  }
+  
+  .BotonesRegistro {
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    gap: 10px; /* Añade un espacio de 10px entre los botones */
+  }
+  
+  .BotonesRegistro button {
     padding: 6px 12px;
     background-color: #6515dd;
     color: #fff;
@@ -39,11 +66,8 @@ div {
     border-radius: 4px;
     cursor: pointer;
     font-size: 14px;
-    display: block;
-    margin: 0 auto;
   }
   
-  button:hover {
+  .BotonesRegistro button:hover {
     background-color: #0056b3;
   }
-  
