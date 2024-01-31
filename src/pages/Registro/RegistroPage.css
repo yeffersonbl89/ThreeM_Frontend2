@@ -71,3 +71,19 @@ div {
   .BotonesRegistro button:hover {
     background-color: #0056b3;
   }
+
+  .error-message {
+    color: #ff0000; /* Color rojo */
+    font-size: 14px;
+    margin-top: 5px; /* Espacio adicional arriba del mensaje de error */
+  }
+  
+  .success-message {
+    color: #008000; /* Color verde para mensajes de éxito, puedes ajustarlo según tus preferencias */
+    font-size: 20px;
+    margin-top: 5px;
+    text-align: center;
+    border: 1px solid #4caf50;
+    background-color: #d4edda;
+    padding: 10px;
+  }
